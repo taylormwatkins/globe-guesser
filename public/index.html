@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- import javascript and css -->
+  <script type="module" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <style>
+    body {
+      background-image: url("wallpaper.jpg");
+    }
+  </style>
+
+  <title>Globe Guesser</title>
+
+</head>
+
+<body>
+  <div class="app">
+    <img id="logo" src="logo1.png" alt="Logo"><br>
+
+    <!-- button to open the modal -->
+    <button id="infobutton">How to play</button>
+
+    <!-- enter a guess -->
+    <form id="guessform">
+      <label for="guess">Enter a country:</label><br><br>
+      <input type="text" id="guess" name="guess"><br><br>
+      <input type="submit" id="submitbutton" value="Guess">
+    </form><br>
+
+    <!-- display the number of remaining guesses -->
+    <p id="guessholder"></p>
+
+    <!-- display user message -->
+    <p id="usermessage"></p>
+
+    <!-- headers for guess table -->
+    <table id="datatable">
+      <thead>
+        <tr>
+          <th><img class="icons" src="guess.png" alt="Guess Icon"></th>
+          <th><img class="icons" src="co2.png" alt="Co2 Icon"></th>
+          <th><img class="icons" src="temp.png" alt="Temp Icon"></th>
+          <th><img class="icons" src="area.png" alt="Area Icon"></th>
+          <th><img class="icons" src="continent.png" alt="Continent Icon"></th>
+          <th><img class="icons" src="direction.png" alt="Direction Icon"></th>
+        </tr>
+        <tr>
+          <th>Guess</th>
+          <th>CO2</th>
+          <th>Temp</th>
+          <th>Area</th>
+          <th>Cont.</th>
+          <th>Dir.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- insert table here via javascript -->
+      </tbody>
+    </table>
+
+  </div>
+  <!-- end of app div -->
+
+  <!-- the info modal -->
+  <div id="infomodal" class="modal">
+    <div class="modalcontent">
+      <span class="close">&times;</span>
+
+      <h2>How to Play</h2>
+      <p>
+        You have 7 guesses to find the target country. <br> <br>
+        After each guess you'll be given data comparing the country you guessed to the target country.<br>
+        A positive number indicates that the target country has a higher value.<br> <br>
+        <img class="info_icons" src="co2.png" alt="Co2 Icon"> CO2 emissions, in million tons <br>
+        <img class="info_icons" src="temp.png" alt="Temp Icon"> Average Temperature, in celsius <br>
+        <img class="info_icons" src="area.png" alt="Area Icon"> Land Area, in square miles <br>
+        <img class="info_icons" src="continent.png" alt="Continent Icon"> Is your guess on the right
+        continent? <br>
+        <img class="info_icons" src="direction.png" alt="Direction Icon"> Direction from your guess to the
+        answer <br>
+        <br>
+        Note: In this game, the Americas are divided into two continents. South America is one continent, North and
+        Central America is another.
+      </p>
+    </div>
+    <!-- end of info modal div -->
+
+    <!-- javascript for submitting a guess and opening/closing the modal -->
+    <script type="module">
+      import { submitGuess } from './index.js';
+
+      // adding an event listener to the submit button
+      document.getElementById('submitbutton').addEventListener('click', function () {
+        // don't refresh when clicked
+        event.preventDefault();
+
+        // grabbing the value from the text box
+        const userInput = document.getElementById('guess').value;
+
+        // calling the function and passing the input as argument
+        submitGuess(userInput);
+      });
+
+
+      // get modal elements
+      const infoModal = document.getElementById("infomodal");
+      const infoButton = document.getElementById("infobutton");
+      const span = document.getElementsByClassName("close")[0];
+
+      // when the user clicks the button, open the modal 
+      infoButton.onclick = function () {
+        infoModal.style.display = "block";
+      }
+
+      // when the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        infoModal.style.display = "none";
+      }
+
+    </script>
+
+</body>
+
+</html>

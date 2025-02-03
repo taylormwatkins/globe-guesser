@@ -1,0 +1,2012 @@
+{
+  "1": {
+    "name": "Afghanistan",
+    "continent": "Asia",
+    "climate": 14.48,
+    "area": 652230,
+    "latitude": "33 00 N",
+    "longitude": "65 00 E",
+    "population": 40121552,
+    "co2_emissions": 7.893
+  },
+  "2": {
+    "name": "Albania",
+    "continent": "Europe",
+    "climate": 13.31,
+    "area": 27398,
+    "latitude": "41 00 N",
+    "longitude": "20 00 E",
+    "population": 3107100,
+    "co2_emissions": 3.794
+  },
+  "3": {
+    "name": "Algeria",
+    "continent": "Africa",
+    "climate": 24.11,
+    "area": 2381740,
+    "latitude": "28 00 N",
+    "longitude": "3 00 E",
+    "population": 47022473,
+    "co2_emissions": 151.633
+  },
+  "4": {
+    "name": "American Samoa",
+    "continent": "Oceania",
+    "climate": 27.31,
+    "area": 224,
+    "latitude": "14 20 S",
+    "longitude": "170 00 W",
+    "population": 43895,
+    "co2_emissions": 0.355
+  },
+  "5": {
+    "name": "Andorra",
+    "continent": "Europe",
+    "climate": 9.73,
+    "area": 468,
+    "latitude": "42 30 N",
+    "longitude": "1 30 E",
+    "population": 85370,
+    "co2_emissions": 0.483
+  },
+  "6": {
+    "name": "Angola",
+    "continent": "Africa",
+    "climate": 21.63,
+    "area": 1246700,
+    "latitude": "12 30 S",
+    "longitude": "18 30 E",
+    "population": 37202061,
+    "co2_emissions": 19.362
+  },
+  "7": {
+    "name": "Antigua and Barbuda",
+    "continent": "North and Central America",
+    "climate": 27.06,
+    "area": 443,
+    "latitude": "17 03 N",
+    "longitude": "61 48 W",
+    "population": 102634,
+    "co2_emissions": 0.729
+  },
+  "8": {
+    "name": "Argentina",
+    "continent": "South America",
+    "climate": 15.07,
+    "area": 2736690,
+    "latitude": "34 00 S",
+    "longitude": "64 00 W",
+    "population": 46994384,
+    "co2_emissions": 193.205
+  },
+  "9": {
+    "name": "Armenia",
+    "continent": "Asia",
+    "climate": 8.64,
+    "area": 28203,
+    "latitude": "40 00 N",
+    "longitude": "45 00 E",
+    "population": 2976765,
+    "co2_emissions": 6.354
+  },
+  "10": {
+    "name": "Aruba",
+    "continent": "North and Central America",
+    "climate": 28.82,
+    "area": 180,
+    "latitude": "12 30 N",
+    "longitude": "69 58 W",
+    "population": 125063,
+    "co2_emissions": 1.254
+  },
+  "11": {
+    "name": "Australia",
+    "continent": "Oceania",
+    "climate": 21.96,
+    "area": 7682300,
+    "latitude": "27 00 S",
+    "longitude": "133 00 E",
+    "population": 26768598,
+    "co2_emissions": 417.87
+  },
+  "12": {
+    "name": "Austria",
+    "continent": "Europe",
+    "climate": 8.65,
+    "area": 83871,
+    "latitude": "47 20 N",
+    "longitude": "13 30 E",
+    "population": 8967982,
+    "co2_emissions": 65.54
+  },
+  "13": {
+    "name": "Azerbaijan",
+    "continent": "Asia",
+    "climate": 13.84,
+    "area": 86600,
+    "latitude": "40 30 N",
+    "longitude": "47 30 E",
+    "population": 10650239,
+    "co2_emissions": 35.389
+  },
+  "14": {
+    "name": "Bahamas",
+    "continent": "North and Central America",
+    "climate": 26.05,
+    "area": 13880,
+    "latitude": "24 15 N",
+    "longitude": "76 00 W",
+    "population": 410862,
+    "co2_emissions": 3.984
+  },
+  "15": {
+    "name": "Bahrain",
+    "continent": "Asia",
+    "climate": 28.84,
+    "area": 760,
+    "latitude": "26 00 N",
+    "longitude": "50 33 E",
+    "population": 1566888,
+    "co2_emissions": 43.112
+  },
+  "16": {
+    "name": "Bangladesh",
+    "continent": "Asia",
+    "climate": 25.74,
+    "area": 148460,
+    "latitude": "24 00 N",
+    "longitude": "90 00 E",
+    "population": 168697184,
+    "co2_emissions": 96.18
+  },
+  "17": {
+    "name": "Barbados",
+    "continent": "North and Central America",
+    "climate": 26.45,
+    "area": 430,
+    "latitude": "13 10 N",
+    "longitude": "59 32 W",
+    "population": 304139,
+    "co2_emissions": 1.703
+  },
+  "18": {
+    "name": "Belarus",
+    "continent": "Europe",
+    "climate": 7.98,
+    "area": 207600,
+    "latitude": "53 00 N",
+    "longitude": "28 00 E",
+    "population": 9501451,
+    "co2_emissions": 54.695
+  },
+  "19": {
+    "name": "Belgium",
+    "continent": "Europe",
+    "climate": 11.98,
+    "area": 30528,
+    "latitude": "50 50 N",
+    "longitude": "4 00 E",
+    "population": 11977634,
+    "co2_emissions": 128.247
+  },
+  "20": {
+    "name": "Belize",
+    "continent": "North and Central America",
+    "climate": 25.83,
+    "area": 22966,
+    "latitude": "17 15 N",
+    "longitude": "88 45 W",
+    "population": 415789,
+    "co2_emissions": 0.541
+  },
+  "21": {
+    "name": "Benin",
+    "continent": "Africa",
+    "climate": 28.09,
+    "area": 112622,
+    "latitude": "9 30 N",
+    "longitude": "2 15 E",
+    "population": 14697052,
+    "co2_emissions": 6.903
+  },
+  "22": {
+    "name": "Bhutan",
+    "continent": "Asia",
+    "climate": 10.56,
+    "area": 38394,
+    "latitude": "27 30 N",
+    "longitude": "90 30 E",
+    "population": 884546,
+    "co2_emissions": 0.934
+  },
+  "23": {
+    "name": "Bolivia",
+    "continent": "South America",
+    "climate": 20.68,
+    "area": 1098581,
+    "latitude": "17 00 S",
+    "longitude": "65 00 W",
+    "population": 12311974,
+    "co2_emissions": 17.786
+  },
+  "24": {
+    "name": "Bosnia and Herzegovina",
+    "continent": "Europe",
+    "climate": 11.57,
+    "area": 51197,
+    "latitude": "44 00 N",
+    "longitude": "18 00 E",
+    "population": 3798671,
+    "co2_emissions": 16.209
+  },
+  "25": {
+    "name": "Botswana",
+    "continent": "Africa",
+    "climate": 22,
+    "area": 581730,
+    "latitude": "22 00 S",
+    "longitude": "24 00 E",
+    "population": 2450668,
+    "co2_emissions": 5.965
+  },
+  "26": {
+    "name": "Brazil",
+    "continent": "South America",
+    "climate": 25.54,
+    "area": 8515770,
+    "latitude": "10 00 S",
+    "longitude": "55 00 W",
+    "population": 220051512,
+    "co2_emissions": 456.67
+  },
+  "27": {
+    "name": "Brunei",
+    "continent": "Asia",
+    "climate": 27,
+    "area": 5765,
+    "latitude": "4 30 N",
+    "longitude": "114 40 E",
+    "population": 491900,
+    "co2_emissions": 9.956
+  },
+  "28": {
+    "name": "Bulgaria",
+    "continent": "Europe",
+    "climate": 12.28,
+    "area": 110879,
+    "latitude": "43 00 N",
+    "longitude": "25 00 E",
+    "population": 6782659,
+    "co2_emissions": 38.373
+  },
+  "29": {
+    "name": "Burkina Faso",
+    "continent": "Africa",
+    "climate": 29.28,
+    "area": 274200,
+    "latitude": "13 00 N",
+    "longitude": "2 00 W",
+    "population": 23042199,
+    "co2_emissions": 4.444
+  },
+  "30": {
+    "name": "Burma",
+    "continent": "Asia",
+    "climate": 23.96,
+    "area": 676578,
+    "latitude": "22 00 N",
+    "longitude": "98 00 E",
+    "population": 57527139,
+    "co2_emissions": 31.848
+  },
+  "31": {
+    "name": "Burundi",
+    "continent": "Africa",
+    "climate": 20.43,
+    "area": 27830,
+    "latitude": "3 30 S",
+    "longitude": "30 00 E",
+    "population": 13590102,
+    "co2_emissions": 0.715
+  },
+  "32": {
+    "name": "Cabo Verde",
+    "continent": "Africa",
+    "climate": 22.67,
+    "area": 4033,
+    "latitude": "16 00 N",
+    "longitude": "24 00 W",
+    "population": 611014,
+    "co2_emissions": 1.002
+  },
+  "33": {
+    "name": "Cambodia",
+    "continent": "Asia",
+    "climate": 27.25,
+    "area": 181035,
+    "latitude": "13 00 N",
+    "longitude": "105 00 E",
+    "population": 17063669,
+    "co2_emissions": 13.844
+  },
+  "34": {
+    "name": "Cameroon",
+    "continent": "Africa",
+    "climate": 24.94,
+    "area": 475440,
+    "latitude": "6 00 N",
+    "longitude": "12 00 E",
+    "population": 30966105,
+    "co2_emissions": 7.105
+  },
+  "35": {
+    "name": "Canada",
+    "continent": "North and Central America",
+    "climate": -4.22,
+    "area": 9984670,
+    "latitude": "60 00 N",
+    "longitude": "95 00 W",
+    "population": 38794813,
+    "co2_emissions": 612.084
+  },
+  "36": {
+    "name": "Central African Republic",
+    "continent": "Africa",
+    "climate": 25.56,
+    "area": 622984,
+    "latitude": "7 00 N",
+    "longitude": "21 00 E",
+    "population": 5650957,
+    "co2_emissions": 0.285
+  },
+  "37": {
+    "name": "Chad",
+    "continent": "Africa",
+    "climate": 27.28,
+    "area": 128400,
+    "latitude": "15 00 N",
+    "longitude": "19 00 E",
+    "population": 19093595,
+    "co2_emissions": 1.771
+  },
+  "38": {
+    "name": "Chile",
+    "continent": "South America",
+    "climate": 9.37,
+    "area": 756102,
+    "latitude": "30 00 S",
+    "longitude": "71 00 W",
+    "population": 18664652,
+    "co2_emissions": 88.333
+  },
+  "39": {
+    "name": "China",
+    "continent": "Asia",
+    "climate": 8.1,
+    "area": 9596960,
+    "latitude": "35 00 N",
+    "longitude": "105 00 E",
+    "population": 1416043270,
+    "co2_emissions": 10773.248
+  },
+  "40": {
+    "name": "Colombia",
+    "continent": "South America",
+    "climate": 24.71,
+    "area": 1138910,
+    "latitude": "4 00 N",
+    "longitude": "72 00 W",
+    "population": 49588357,
+    "co2_emissions": 81.007
+  },
+  "41": {
+    "name": "Comoros",
+    "continent": "Africa",
+    "climate": 23.74,
+    "area": 2235,
+    "latitude": "12 10 S",
+    "longitude": "44 15 E",
+    "population": 900141,
+    "co2_emissions": 0.326
+  },
+  "42": {
+    "name": "Congo",
+    "continent": "Africa",
+    "climate": 24.38,
+    "area": 342000,
+    "latitude": "1 00 S",
+    "longitude": "15 00 E",
+    "population": 6097665,
+    "co2_emissions": 4.523
+  },
+  "43": {
+    "name": "Cook Islands",
+    "continent": "Oceania",
+    "climate": 26.5,
+    "area": 236,
+    "latitude": "21 14 S",
+    "longitude": "159 46 W",
+    "population": 7761,
+    "co2_emissions": 0.114
+  },
+  "44": {
+    "name": "Costa Rica",
+    "continent": "North and Central America",
+    "climate": 24.64,
+    "area": 51100,
+    "latitude": "10 00 N",
+    "longitude": "84 00 W",
+    "population": 5265575,
+    "co2_emissions": 8.115
+  },
+  "45": {
+    "name": "Cote d\u2019Ivoire",
+    "continent": "Africa",
+    "climate": 26.84,
+    "area": 322463,
+    "latitude": "8 00 N",
+    "longitude": "5 00 W",
+    "population": 29981758,
+    "co2_emissions": 11.88
+  },
+  "46": {
+    "name": "Croatia",
+    "continent": "Europe",
+    "climate": 13.16,
+    "area": 56594,
+    "latitude": "45 10 N",
+    "longitude": "15 30 E",
+    "population": 4150116,
+    "co2_emissions": 16.752
+  },
+  "47": {
+    "name": "Cuba",
+    "continent": "North and Central America",
+    "climate": 26.14,
+    "area": 110860,
+    "latitude": "21 30 N",
+    "longitude": "80 00 W",
+    "population": 10966038,
+    "co2_emissions": 16.478
+  },
+  "48": {
+    "name": "Cyprus",
+    "continent": "Europe",
+    "climate": 19.33,
+    "area": 9251,
+    "latitude": "35 00 N",
+    "longitude": "33 00 E",
+    "population": 1320525,
+    "co2_emissions": 8.024
+  },
+  "49": {
+    "name": "Czechia",
+    "continent": "Europe",
+    "climate": 9.71,
+    "area": 78867,
+    "latitude": "49 45 N",
+    "longitude": "15 30 E",
+    "population": 10837890,
+    "co2_emissions": 99.533
+  },
+  "50": {
+    "name": "Democratic Republic of Congo",
+    "continent": "Africa",
+    "climate": 25.05,
+    "area": 2344858,
+    "latitude": "0 00 N",
+    "longitude": "25 00 E",
+    "population": 115403027,
+    "co2_emissions": 2.653
+  },
+  "51": {
+    "name": "Denmark",
+    "continent": "Europe",
+    "climate": 9.77,
+    "area": 43094,
+    "latitude": "56 00 N",
+    "longitude": "10 00 E",
+    "population": 5973136,
+    "co2_emissions": 33.85
+  },
+  "52": {
+    "name": "Djibouti",
+    "continent": "Africa",
+    "climate": 28.6,
+    "area": 23200,
+    "latitude": "11 30 N",
+    "longitude": "43 00 E",
+    "population": 994974,
+    "co2_emissions": 0.61
+  },
+  "53": {
+    "name": "Dominica",
+    "continent": "North and Central America",
+    "climate": 26.68,
+    "area": 751,
+    "latitude": "15 25 N",
+    "longitude": "61 20 W",
+    "population": 74661,
+    "co2_emissions": 0.182
+  },
+  "54": {
+    "name": "Dominican Republic",
+    "continent": "North and Central America",
+    "climate": 24.57,
+    "area": 48670,
+    "latitude": "19 00 N",
+    "longitude": "70 40 W",
+    "population": 10815857,
+    "co2_emissions": 26.808
+  },
+  "55": {
+    "name": "Ecuador",
+    "continent": "South America",
+    "climate": 21.07,
+    "area": 283561,
+    "latitude": "2 00 S",
+    "longitude": "77 30 W",
+    "population": 18309984,
+    "co2_emissions": 36.051
+  },
+  "56": {
+    "name": "Egypt",
+    "continent": "Africa",
+    "climate": 23.23,
+    "area": 1001450,
+    "latitude": "27 00 N",
+    "longitude": "30 00 E",
+    "population": 111247248,
+    "co2_emissions": 235.137
+  },
+  "57": {
+    "name": "El Salvador",
+    "continent": "North and Central America",
+    "climate": 25.23,
+    "area": 21041,
+    "latitude": "13 50 N",
+    "longitude": "88 55 W",
+    "population": 6628702,
+    "co2_emissions": 7.632
+  },
+  "58": {
+    "name": "Equatorial Guinea",
+    "continent": "Africa",
+    "climate": 24.89,
+    "area": 28051,
+    "latitude": "2 00 N",
+    "longitude": "10 00 E",
+    "population": 1795834,
+    "co2_emissions": 4.528
+  },
+  "59": {
+    "name": "Eritrea",
+    "continent": "Africa",
+    "climate": 26.49,
+    "area": 117600,
+    "latitude": "15 00 N",
+    "longitude": "39 00 E",
+    "population": 6343956,
+    "co2_emissions": 0.798
+  },
+  "60": {
+    "name": "Estonia",
+    "continent": "Europe",
+    "climate": 6.9,
+    "area": 45228,
+    "latitude": "59 00 N",
+    "longitude": "26 00 E",
+    "population": 1193791,
+    "co2_emissions": 4.924
+  },
+  "61": {
+    "name": "Eswatini",
+    "continent": "Africa",
+    "climate": 20.6,
+    "area": 17364,
+    "latitude": "26 30 S",
+    "longitude": "31 30 E",
+    "population": 1138089,
+    "co2_emissions": 1.224
+  },
+  "62": {
+    "name": "Ethiopia",
+    "continent": "Africa",
+    "climate": 23.45,
+    "area": 1104300,
+    "latitude": "8 00 N",
+    "longitude": "38 00 E",
+    "population": 118550298,
+    "co2_emissions": 16.798
+  },
+  "63": {
+    "name": "Fiji",
+    "continent": "Oceania",
+    "climate": 24.98,
+    "area": 18274,
+    "latitude": "18 00 S",
+    "longitude": "175 00 E",
+    "population": 951611,
+    "co2_emissions": 1.691
+  },
+  "64": {
+    "name": "Finland",
+    "continent": "Europe",
+    "climate": 3.24,
+    "area": 338145,
+    "latitude": "64 00 N",
+    "longitude": "26 00 E",
+    "population": 5626414,
+    "co2_emissions": 41.996
+  },
+  "65": {
+    "name": "France",
+    "continent": "Europe",
+    "climate": 13.16,
+    "area": 551500,
+    "latitude": "46 00 N",
+    "longitude": "2 00 E",
+    "population": 68374591,
+    "co2_emissions": 338.425
+  },
+  "66": {
+    "name": "French Polynesia",
+    "continent": "Oceania",
+    "climate": 24.05,
+    "area": 4167,
+    "latitude": "15 00 S",
+    "longitude": "140 00 W",
+    "population": 303540,
+    "co2_emissions": 1.03
+  },
+  "67": {
+    "name": "Gabon",
+    "continent": "Africa",
+    "climate": 25.46,
+    "area": 267667,
+    "latitude": "1 00 S",
+    "longitude": "11 45 E",
+    "population": 2455105,
+    "co2_emissions": 2.651
+  },
+  "68": {
+    "name": "Georgia",
+    "continent": "Asia",
+    "climate": 9.92,
+    "area": 69700,
+    "latitude": "42 00 N",
+    "longitude": "43 30 E",
+    "population": 4900961,
+    "co2_emissions": 10.299
+  },
+  "69": {
+    "name": "Germany",
+    "continent": "Europe",
+    "climate": 10.83,
+    "area": 357022,
+    "latitude": "51 00 N",
+    "longitude": "9 00 E",
+    "population": 84119100,
+    "co2_emissions": 726.881
+  },
+  "70": {
+    "name": "Ghana",
+    "continent": "Africa",
+    "climate": 27.73,
+    "area": 238533,
+    "latitude": "8 00 N",
+    "longitude": "2 00 W",
+    "population": 34589092,
+    "co2_emissions": 18.093
+  },
+  "71": {
+    "name": "Greece",
+    "continent": "Europe",
+    "climate": 14.88,
+    "area": 131957,
+    "latitude": "39 00 N",
+    "longitude": "22 00 E",
+    "population": 10461091,
+    "co2_emissions": 70.163
+  },
+  "72": {
+    "name": "Grenada",
+    "continent": "North and Central America",
+    "climate": 26.33,
+    "area": 344,
+    "latitude": "12 07 N",
+    "longitude": "61 40 W",
+    "population": 114621,
+    "co2_emissions": 0.316
+  },
+  "73": {
+    "name": "Guatemala",
+    "continent": "South America",
+    "climate": 23.77,
+    "area": 108889,
+    "latitude": "15 30 N",
+    "longitude": "90 15 W",
+    "population": 18255216,
+    "co2_emissions": 19.041
+  },
+  "74": {
+    "name": "Guinea",
+    "continent": "Africa",
+    "climate": 25.95,
+    "area": 245857,
+    "latitude": "11 00 N",
+    "longitude": "10 00 W",
+    "population": 13986179,
+    "co2_emissions": 2.981
+  },
+  "75": {
+    "name": "Guinea-Bissau",
+    "continent": "Africa",
+    "climate": 28.05,
+    "area": 36125,
+    "latitude": "12 00 N",
+    "longitude": "15 00 W",
+    "population": 2132325,
+    "co2_emissions": 0.342
+  },
+  "76": {
+    "name": "Guyana",
+    "continent": "South America",
+    "climate": 26.16,
+    "area": 214969,
+    "latitude": "5 00 N",
+    "longitude": "59 00 W",
+    "population": 794099,
+    "co2_emissions": 2.743
+  },
+  "77": {
+    "name": "Haiti",
+    "continent": "North and Central America",
+    "climate": 25.01,
+    "area": 27750,
+    "latitude": "19 00 N",
+    "longitude": "72 25 W",
+    "population": 11753943,
+    "co2_emissions": 3.139
+  },
+  "78": {
+    "name": "Honduras",
+    "continent": "North and Central America",
+    "climate": 24.71,
+    "area": 112090,
+    "latitude": "15 00 N",
+    "longitude": "86 30 W",
+    "population": 9529188,
+    "co2_emissions": 8.523
+  },
+  "79": {
+    "name": "Hong Kong",
+    "continent": "Asia",
+    "climate": 23.62,
+    "area": 1108,
+    "latitude": "22 15 N",
+    "longitude": "114 10 E",
+    "population": 7297821,
+    "co2_emissions": 92.493
+  },
+  "80": {
+    "name": "Hungary",
+    "continent": "Europe",
+    "climate": 12.62,
+    "area": 93028,
+    "latitude": "47 00 N",
+    "longitude": "20 00 E",
+    "population": 9855745,
+    "co2_emissions": 48.589
+  },
+  "81": {
+    "name": "Iceland",
+    "continent": "Europe",
+    "climate": 2.11,
+    "area": 103000,
+    "latitude": "65 00 N",
+    "longitude": "18 00 W",
+    "population": 364036,
+    "co2_emissions": 3.337
+  },
+  "82": {
+    "name": "India",
+    "continent": "Asia",
+    "climate": 25.2,
+    "area": 3287263,
+    "latitude": "20 00 N",
+    "longitude": "77 00 E",
+    "population": 1409128296,
+    "co2_emissions": 2314.738
+  },
+  "83": {
+    "name": "Indonesia",
+    "continent": "Asia",
+    "climate": 25.96,
+    "area": 1904569,
+    "latitude": "5 00 S",
+    "longitude": "120 00 E",
+    "population": 281562465,
+    "co2_emissions": 563.543
+  },
+  "84": {
+    "name": "Iran",
+    "continent": "Asia",
+    "climate": 19.3,
+    "area": 1648195,
+    "latitude": "32 00 N",
+    "longitude": "53 00 E",
+    "population": 88386937,
+    "co2_emissions": 646.038
+  },
+  "85": {
+    "name": "Iraq",
+    "continent": "Asia",
+    "climate": 23.81,
+    "area": 438317,
+    "latitude": "33 00 N",
+    "longitude": "44 00 E",
+    "population": 42083436,
+    "co2_emissions": 143.479
+  },
+  "86": {
+    "name": "Ireland",
+    "continent": "Europe",
+    "climate": 10.35,
+    "area": 70273,
+    "latitude": "53 00 N",
+    "longitude": "8 00 W",
+    "population": 5233461,
+    "co2_emissions": 35.475
+  },
+  "87": {
+    "name": "Israel",
+    "continent": "Asia",
+    "climate": 20.23,
+    "area": 21937,
+    "latitude": "31 30 N",
+    "longitude": "34 45 E",
+    "population": 9402617,
+    "co2_emissions": 61.092
+  },
+  "88": {
+    "name": "Italy",
+    "continent": "Europe",
+    "climate": 14.38,
+    "area": 301340,
+    "latitude": "42 50 N",
+    "longitude": "12 50 E",
+    "population": 60964931,
+    "co2_emissions": 332.041
+  },
+  "89": {
+    "name": "Jamaica",
+    "continent": "North and Central America",
+    "climate": 26.02,
+    "area": 10991,
+    "latitude": "18 15 N",
+    "longitude": "77 30 W",
+    "population": 2823713,
+    "co2_emissions": 10.002
+  },
+  "90": {
+    "name": "Japan",
+    "continent": "Asia",
+    "climate": 12.42,
+    "area": 377915,
+    "latitude": "36 00 N",
+    "longitude": "138 00 E",
+    "population": 123201945,
+    "co2_emissions": 1103.234
+  },
+  "91": {
+    "name": "Jordan",
+    "continent": "Asia",
+    "climate": 19.77,
+    "area": 89342,
+    "latitude": "31 00 N",
+    "longitude": "36 00 E",
+    "population": 11174024,
+    "co2_emissions": 23.47
+  },
+  "92": {
+    "name": "Kazakhstan",
+    "continent": "Asia",
+    "climate": 8.06,
+    "area": 2724900,
+    "latitude": "48 00 N",
+    "longitude": "68 00 E",
+    "population": 20260006,
+    "co2_emissions": 263.689
+  },
+  "93": {
+    "name": "Kenya",
+    "continent": "Africa",
+    "climate": 25.22,
+    "area": 580367,
+    "latitude": "1 00 N",
+    "longitude": "38 00 E",
+    "population": 58246378,
+    "co2_emissions": 17.709
+  },
+  "94": {
+    "name": "Kiribati",
+    "continent": "Oceania",
+    "climate": 27.77,
+    "area": 811,
+    "latitude": "1 25 N",
+    "longitude": "173 00 E",
+    "population": 116545,
+    "co2_emissions": 0.076
+  },
+  "95": {
+    "name": "Kosovo",
+    "continent": "Europe",
+    "climate": 12.2,
+    "area": 10887,
+    "latitude": "42 35 N",
+    "longitude": "21 00 E",
+    "population": 1977093,
+    "co2_emissions": 8.009
+  },
+  "96": {
+    "name": "Kuwait",
+    "continent": "Asia",
+    "climate": 27.58,
+    "area": 17818,
+    "latitude": "29 30 N",
+    "longitude": "45 45 E",
+    "population": 3138355,
+    "co2_emissions": 95.582
+  },
+  "97": {
+    "name": "Kyrgyzstan",
+    "continent": "Asia",
+    "climate": 3.93,
+    "area": 199951,
+    "latitude": "41 00 N",
+    "longitude": "75 00 E",
+    "population": 6172101,
+    "co2_emissions": 7.88
+  },
+  "98": {
+    "name": "Laos",
+    "continent": "Asia",
+    "climate": 24.05,
+    "area": 236800,
+    "latitude": "18 00 N",
+    "longitude": "105 00 E",
+    "population": 7953556,
+    "co2_emissions": 40.726
+  },
+  "99": {
+    "name": "Latvia",
+    "continent": "Europe",
+    "climate": 7.4,
+    "area": 64589,
+    "latitude": "57 00 N",
+    "longitude": "25 00 E",
+    "population": 1801246,
+    "co2_emissions": 8.45
+  },
+  "100": {
+    "name": "Lebanon",
+    "continent": "Asia",
+    "climate": 15.66,
+    "area": 10400,
+    "latitude": "33 50 N",
+    "longitude": "35 50 E",
+    "population": 5364482,
+    "co2_emissions": 25.838
+  },
+  "101": {
+    "name": "Lesotho",
+    "continent": "Africa",
+    "climate": 12.64,
+    "area": 30355,
+    "latitude": "29 30 S",
+    "longitude": "28 30 E",
+    "population": 2227548,
+    "co2_emissions": 0.736
+  },
+  "102": {
+    "name": "Liberia",
+    "continent": "Africa",
+    "climate": 25.47,
+    "area": 111369,
+    "latitude": "6 30 N",
+    "longitude": "9 30 W",
+    "population": 5437249,
+    "co2_emissions": 1.346
+  },
+  "103": {
+    "name": "Libya",
+    "continent": "Africa",
+    "climate": 22.8,
+    "area": 1759540,
+    "latitude": "25 00 N",
+    "longitude": "17 00 E",
+    "population": 7361263,
+    "co2_emissions": 38.297
+  },
+  "104": {
+    "name": "Liechtenstein",
+    "continent": "Europe",
+    "climate": 9.05,
+    "area": 160,
+    "latitude": "47 16 N",
+    "longitude": "9 32 E",
+    "population": 40272,
+    "co2_emissions": 0.335
+  },
+  "105": {
+    "name": "Lithuania",
+    "continent": "Europe",
+    "climate": 7.95,
+    "area": 65300,
+    "latitude": "56 00 N",
+    "longitude": "24 00 E",
+    "population": 2628186,
+    "co2_emissions": 14.503
+  },
+  "106": {
+    "name": "Luxembourg",
+    "continent": "Europe",
+    "climate": 11.43,
+    "area": 2586,
+    "latitude": "49 45 N",
+    "longitude": "6 10 E",
+    "population": 671254,
+    "co2_emissions": 11.308
+  },
+  "107": {
+    "name": "Madagascar",
+    "continent": "Africa",
+    "climate": 22.7,
+    "area": 587041,
+    "latitude": "20 00 S",
+    "longitude": "47 00 E",
+    "population": 29452714,
+    "co2_emissions": 4.218
+  },
+  "108": {
+    "name": "Malawi",
+    "continent": "Africa",
+    "climate": 22.55,
+    "area": 118484,
+    "latitude": "13 30 S",
+    "longitude": "34 00 E",
+    "population": 21763309,
+    "co2_emissions": 1.542
+  },
+  "109": {
+    "name": "Malaysia",
+    "continent": "Asia",
+    "climate": 26.35,
+    "area": 329847,
+    "latitude": "2 30 N",
+    "longitude": "112 30 E",
+    "population": 34564810,
+    "co2_emissions": 254.764
+  },
+  "110": {
+    "name": "Maldives",
+    "continent": "Asia",
+    "climate": 28.08,
+    "area": 298,
+    "latitude": "3 15 N",
+    "longitude": "73 00 E",
+    "population": 388858,
+    "co2_emissions": 2.286
+  },
+  "111": {
+    "name": "Mali",
+    "continent": "Africa",
+    "climate": 29.19,
+    "area": 1240192,
+    "latitude": "17 00 N",
+    "longitude": "4 00 W",
+    "population": 21990607,
+    "co2_emissions": 5.679
+  },
+  "112": {
+    "name": "Malta",
+    "continent": "Europe",
+    "climate": 20.26,
+    "area": 316,
+    "latitude": "35 50 N",
+    "longitude": "14 35 E",
+    "population": 469730,
+    "co2_emissions": 9.576
+  },
+  "113": {
+    "name": "Marshall Islands",
+    "continent": "Oceania",
+    "climate": 27.9,
+    "area": 181,
+    "latitude": "9 00 N",
+    "longitude": "168 00 E",
+    "population": 82011,
+    "co2_emissions": 0.293
+  },
+  "114": {
+    "name": "Mauritania",
+    "continent": "Africa",
+    "climate": 28.9,
+    "area": 1030700,
+    "latitude": "20 00 N",
+    "longitude": "12 00 W",
+    "population": 4328040,
+    "co2_emissions": 4.041
+  },
+  "115": {
+    "name": "Mauritius",
+    "continent": "Africa",
+    "climate": 23.27,
+    "area": 2040,
+    "latitude": "20 17 S",
+    "longitude": "57 33 E",
+    "population": 1310504,
+    "co2_emissions": 7.191
+  },
+  "116": {
+    "name": "Mexico",
+    "continent": "North and Central America",
+    "climate": 21.7,
+    "area": 1964375,
+    "latitude": "23 00 N",
+    "longitude": "102 00 W",
+    "population": 130739927,
+    "co2_emissions": 463.739
+  },
+  "117": {
+    "name": "Micronesia",
+    "continent": "Oceania",
+    "climate": 27.45,
+    "area": 702,
+    "latitude": "6 55 N",
+    "longitude": "158 15 E",
+    "population": 99603,
+    "co2_emissions": 0.177
+  },
+  "118": {
+    "name": "Moldova",
+    "continent": "Europe",
+    "climate": 11.9,
+    "area": 33851,
+    "latitude": "47 00 N",
+    "longitude": "29 00 E",
+    "population": 3599528,
+    "co2_emissions": 8.114
+  },
+  "119": {
+    "name": "Monaco",
+    "continent": "Europe",
+    "climate": 15.01,
+    "area": 2,
+    "latitude": "43 44 N",
+    "longitude": "7 24 E",
+    "population": 31813,
+    "co2_emissions": 0.069
+  },
+  "120": {
+    "name": "Mongolia",
+    "continent": "Asia",
+    "climate": 1.31,
+    "area": 1564116,
+    "latitude": "46 00 N",
+    "longitude": "105 00 E",
+    "population": 3281676,
+    "co2_emissions": 22.74
+  },
+  "121": {
+    "name": "Montenegro",
+    "continent": "Europe",
+    "climate": 11,
+    "area": 13812,
+    "latitude": "42 30 N",
+    "longitude": "19 18 E",
+    "population": 599849,
+    "co2_emissions": 2.447
+  },
+  "122": {
+    "name": "Morocco",
+    "continent": "Africa",
+    "climate": 19.1,
+    "area": 716550,
+    "latitude": "28 30 N",
+    "longitude": "10 00 W",
+    "population": 37387585,
+    "co2_emissions": 60.2
+  },
+  "123": {
+    "name": "Mozambique",
+    "continent": "Africa",
+    "climate": 24.42,
+    "area": 799380,
+    "latitude": "18 15 S",
+    "longitude": "35 00 E",
+    "population": 33350954,
+    "co2_emissions": 7.753
+  },
+  "124": {
+    "name": "Namibia",
+    "continent": "Africa",
+    "climate": 20.24,
+    "area": 824292,
+    "latitude": "22 00 S",
+    "longitude": "17 00 E",
+    "population": 2803660,
+    "co2_emissions": 3.831
+  },
+  "125": {
+    "name": "Nauru",
+    "continent": "Oceania",
+    "climate": 28.2,
+    "area": 21,
+    "latitude": "0 32 S",
+    "longitude": "166 55 E",
+    "population": 9892,
+    "co2_emissions": 0.066
+  },
+  "126": {
+    "name": "Nepal",
+    "continent": "Asia",
+    "climate": 14.39,
+    "area": 147181,
+    "latitude": "28 00 N",
+    "longitude": "84 00 E",
+    "population": 31122387,
+    "co2_emissions": 7.708
+  },
+  "127": {
+    "name": "Netherlands",
+    "continent": "Europe",
+    "climate": 11.72,
+    "area": 41543,
+    "latitude": "52 31 N",
+    "longitude": "5 46 E",
+    "population": 17772378,
+    "co2_emissions": 214.416
+  },
+  "128": {
+    "name": "New Caledonia",
+    "continent": "Oceania",
+    "climate": 23.37,
+    "area": 18575,
+    "latitude": "21 30 S",
+    "longitude": "165 30 E",
+    "population": 304167,
+    "co2_emissions": 5.886
+  },
+  "129": {
+    "name": "New Zealand",
+    "continent": "Oceania",
+    "climate": 11.66,
+    "area": 268838,
+    "latitude": "41 00 S",
+    "longitude": "174 00 E",
+    "population": 5161211,
+    "co2_emissions": 40.344
+  },
+  "130": {
+    "name": "Nicaragua",
+    "continent": "North and Central America",
+    "climate": 25.81,
+    "area": 130370,
+    "latitude": "13 00 N",
+    "longitude": "85 00 W",
+    "population": 6676948,
+    "co2_emissions": 4.851
+  },
+  "131": {
+    "name": "Niger",
+    "continent": "Africa",
+    "climate": 27.61,
+    "area": 1267000,
+    "latitude": "16 00 N",
+    "longitude": "8 00 E",
+    "population": 26342784,
+    "co2_emissions": 2.374
+  },
+  "132": {
+    "name": "Nigeria",
+    "continent": "Africa",
+    "climate": 27.15,
+    "area": 923768,
+    "latitude": "10 00 N",
+    "longitude": "8 00 E",
+    "population": 236747130,
+    "co2_emissions": 104.494
+  },
+  "133": {
+    "name": "North Korea",
+    "continent": "Asia",
+    "climate": 7.46,
+    "area": 120538,
+    "latitude": "40 00 N",
+    "longitude": "127 00 E",
+    "population": 26298666,
+    "co2_emissions": 18.465
+  },
+  "134": {
+    "name": "North Macedonia",
+    "continent": "Europe",
+    "climate": 11.66,
+    "area": 25713,
+    "latitude": "41 50 N",
+    "longitude": "22 00 E",
+    "population": 2135622,
+    "co2_emissions": 7.383
+  },
+  "135": {
+    "name": "Norway",
+    "continent": "Europe",
+    "climate": 2.88,
+    "area": 323802,
+    "latitude": "62 00 N",
+    "longitude": "10 00 E",
+    "population": 5509733,
+    "co2_emissions": 36.731
+  },
+  "136": {
+    "name": "Oman",
+    "continent": "Asia",
+    "climate": 27.94,
+    "area": 309500,
+    "latitude": "21 00 N",
+    "longitude": "57 00 E",
+    "population": 3901992,
+    "co2_emissions": 76.321
+  },
+  "137": {
+    "name": "Pakistan",
+    "continent": "Asia",
+    "climate": 22.23,
+    "area": 796095,
+    "latitude": "30 00 N",
+    "longitude": "70 00 E",
+    "population": 252363571,
+    "co2_emissions": 193.869
+  },
+  "138": {
+    "name": "Palau",
+    "continent": "Oceania",
+    "climate": 27.54,
+    "area": 459,
+    "latitude": "7 30 N",
+    "longitude": "134 30 E",
+    "population": 21864,
+    "co2_emissions": 0.105
+  },
+  "139": {
+    "name": "Panama",
+    "continent": "North and Central America",
+    "climate": 25.33,
+    "area": 75420,
+    "latitude": "9 00 N",
+    "longitude": "80 00 W",
+    "population": 4470241,
+    "co2_emissions": 25.263
+  },
+  "140": {
+    "name": "Papua New Guinea",
+    "continent": "Oceania",
+    "climate": 24.78,
+    "area": 462840,
+    "latitude": "6 00 S",
+    "longitude": "147 00 E",
+    "population": 10046233,
+    "co2_emissions": 6.491
+  },
+  "141": {
+    "name": "Paraguay",
+    "continent": "South America",
+    "climate": 23.86,
+    "area": 406752,
+    "latitude": "23 00 S",
+    "longitude": "58 00 W",
+    "population": 7522549,
+    "co2_emissions": 7.896
+  },
+  "142": {
+    "name": "Peru",
+    "continent": "South America",
+    "climate": 19.58,
+    "area": 1285216,
+    "latitude": "10 00 S",
+    "longitude": "76 00 W",
+    "population": 32600249,
+    "co2_emissions": 54.996
+  },
+  "143": {
+    "name": "Philippines",
+    "continent": "Asia",
+    "climate": 26.61,
+    "area": 300000,
+    "latitude": "13 00 N",
+    "longitude": "122 E",
+    "population": 118277063,
+    "co2_emissions": 142.282
+  },
+  "144": {
+    "name": "Poland",
+    "continent": "Europe",
+    "climate": 9.7,
+    "area": 312685,
+    "latitude": "52 00 N",
+    "longitude": "20 00 E",
+    "population": 38746310,
+    "co2_emissions": 304.04
+  },
+  "145": {
+    "name": "Portugal",
+    "continent": "Europe",
+    "climate": 16.9,
+    "area": 92090,
+    "latitude": "39 30 N",
+    "longitude": "8 00 W",
+    "population": 10207177,
+    "co2_emissions": 50.37
+  },
+  "146": {
+    "name": "Qatar",
+    "continent": "Asia",
+    "climate": 29.11,
+    "area": 11586,
+    "latitude": "25 30 N",
+    "longitude": "51 15 E",
+    "population": 2552088,
+    "co2_emissions": 111.922
+  },
+  "147": {
+    "name": "Romania",
+    "continent": "Europe",
+    "climate": 11.2,
+    "area": 238391,
+    "latitude": "46 00 N",
+    "longitude": "25 00 E",
+    "population": 18148155,
+    "co2_emissions": 68.746
+  },
+  "148": {
+    "name": "Russia",
+    "continent": "Asia",
+    "climate": -2.87,
+    "area": 17098242,
+    "latitude": "60 00 N",
+    "longitude": "100 00 E",
+    "population": 140820810,
+    "co2_emissions": 1848.07
+  },
+  "149": {
+    "name": "Rwanda",
+    "continent": "Africa",
+    "climate": 19.14,
+    "area": 26338,
+    "latitude": "2 00 S",
+    "longitude": "30 00 E",
+    "population": 13623302,
+    "co2_emissions": 1.189
+  },
+  "150": {
+    "name": "Saint Kitts and Nevis",
+    "continent": "North and Central America",
+    "climate": 27.34,
+    "area": 261,
+    "latitude": "17 20 N",
+    "longitude": "62 45 W",
+    "population": 55133,
+    "co2_emissions": 0.268
+  },
+  "151": {
+    "name": "Saint Lucia",
+    "continent": "North and Central America",
+    "climate": 26.83,
+    "area": 616,
+    "latitude": "13 53 N",
+    "longitude": "60 58 W",
+    "population": 168038,
+    "co2_emissions": 0.659
+  },
+  "152": {
+    "name": "Saint Vincent and the Grenadines",
+    "continent": "North and Central America",
+    "climate": 25.98,
+    "area": 389,
+    "latitude": "13 15 N",
+    "longitude": "61 12 W",
+    "population": 100647,
+    "co2_emissions": 0.202
+  },
+  "153": {
+    "name": "Samoa",
+    "continent": "Oceania",
+    "climate": 27.53,
+    "area": 2831,
+    "latitude": "13 35 S",
+    "longitude": "172 20 W",
+    "population": 208853,
+    "co2_emissions": 0.355
+  },
+  "154": {
+    "name": "San Marino",
+    "continent": "Europe",
+    "climate": 14.14,
+    "area": 61,
+    "latitude": "43 46 N",
+    "longitude": "12 25 E",
+    "population": 35095,
+    "co2_emissions": 0.027
+  },
+  "155": {
+    "name": "Sao Tome and Principe",
+    "continent": "Africa",
+    "climate": 24.66,
+    "area": 964,
+    "latitude": "1 00 N",
+    "longitude": "7 00 E",
+    "population": 223561,
+    "co2_emissions": 0.173
+  },
+  "156": {
+    "name": "Saudi Arabia",
+    "continent": "Asia",
+    "climate": 26.46,
+    "area": 2149690,
+    "latitude": "25 00 N",
+    "longitude": "45 00 E",
+    "population": 36544431,
+    "co2_emissions": 579.925
+  },
+  "157": {
+    "name": "Senegal",
+    "continent": "Africa",
+    "climate": 29,
+    "area": 196722,
+    "latitude": "14 00 N",
+    "longitude": "14 00 W",
+    "population": 18847519,
+    "co2_emissions": 10.696
+  },
+  "158": {
+    "name": "Serbia",
+    "continent": "Europe",
+    "climate": 12.56,
+    "area": 77474,
+    "latitude": "44 00 N",
+    "longitude": "21 00 E",
+    "population": 6652212,
+    "co2_emissions": 47.735
+  },
+  "159": {
+    "name": "Seychelles",
+    "continent": "Africa",
+    "climate": 27.11,
+    "area": 455,
+    "latitude": "4 35 S",
+    "longitude": "55 40 E",
+    "population": 98187,
+    "co2_emissions": 1.156
+  },
+  "160": {
+    "name": "Sierra Leone",
+    "continent": "Africa",
+    "climate": 26.64,
+    "area": 71740,
+    "latitude": "8 30 N",
+    "longitude": "11 30 W",
+    "population": 9121049,
+    "co2_emissions": 0.899
+  },
+  "161": {
+    "name": "Singapore",
+    "continent": "Asia",
+    "climate": 27.7,
+    "area": 719,
+    "latitude": "1 22 N",
+    "longitude": "103 48 E",
+    "population": 6028459,
+    "co2_emissions": 238.983
+  },
+  "162": {
+    "name": "Slovakia",
+    "continent": "Europe",
+    "climate": 9.81,
+    "area": 49035,
+    "latitude": "48 40 N",
+    "longitude": "19 30 E",
+    "population": 5563649,
+    "co2_emissions": 32.506
+  },
+  "163": {
+    "name": "Slovenia",
+    "continent": "Europe",
+    "climate": 11.04,
+    "area": 20273,
+    "latitude": "46 07 N",
+    "longitude": "14 49 E",
+    "population": 2097893,
+    "co2_emissions": 13.553
+  },
+  "164": {
+    "name": "Solomon Islands",
+    "continent": "Oceania",
+    "climate": 25.89,
+    "area": 28896,
+    "latitude": "8 00 S",
+    "longitude": "159 00 E",
+    "population": 726799,
+    "co2_emissions": 0.333
+  },
+  "165": {
+    "name": "Somalia",
+    "continent": "Africa",
+    "climate": 27.1,
+    "area": 637657,
+    "latitude": "10 00 N",
+    "longitude": "49 00 E",
+    "population": 13017273,
+    "co2_emissions": 0.882
+  },
+  "166": {
+    "name": "South Africa",
+    "continent": "Africa",
+    "climate": 18.42,
+    "area": 1219090,
+    "latitude": "29 00 S",
+    "longitude": "24 00 E",
+    "population": 60442647,
+    "co2_emissions": 470.358
+  },
+  "167": {
+    "name": "South Korea",
+    "continent": "Asia",
+    "climate": 12.76,
+    "area": 99720,
+    "latitude": "37 00 N",
+    "longitude": "127 30 E",
+    "population": 52081799,
+    "co2_emissions": 686.954
+  },
+  "168": {
+    "name": "South Sudan",
+    "continent": "Africa",
+    "climate": 28.08,
+    "area": 644329,
+    "latitude": "8 00 N",
+    "longitude": "30 00 E",
+    "population": 12703714,
+    "co2_emissions": 1.778
+  },
+  "169": {
+    "name": "Spain",
+    "continent": "Europe",
+    "climate": 15.3,
+    "area": 505370,
+    "latitude": "40 00 N",
+    "longitude": "4 00 W",
+    "population": 47280433,
+    "co2_emissions": 280.624
+  },
+  "170": {
+    "name": "Sri Lanka",
+    "continent": "Asia",
+    "climate": 27.24,
+    "area": 65610,
+    "latitude": "7 00 N",
+    "longitude": "81 00 E",
+    "population": 21982608,
+    "co2_emissions": 23.939
+  },
+  "171": {
+    "name": "Sudan",
+    "continent": "Africa",
+    "climate": 27.57,
+    "area": 1861484,
+    "latitude": "15 00 N",
+    "longitude": "30 00 E",
+    "population": 50467278,
+    "co2_emissions": 17.319
+  },
+  "172": {
+    "name": "Suriname",
+    "continent": "South America",
+    "climate": 26.53,
+    "area": 163820,
+    "latitude": "4 00 N",
+    "longitude": "56 00 W",
+    "population": 646758,
+    "co2_emissions": 2.372
+  },
+  "173": {
+    "name": "Sweden",
+    "continent": "Europe",
+    "climate": 3.84,
+    "area": 450295,
+    "latitude": "62 00 N",
+    "longitude": "15 00 E",
+    "population": 10589835,
+    "co2_emissions": 48.144
+  },
+  "174": {
+    "name": "Switzerland",
+    "continent": "Europe",
+    "climate": 8.08,
+    "area": 41277,
+    "latitude": "47 00 N",
+    "longitude": "8 00 E",
+    "population": 8860574,
+    "co2_emissions": 38.739
+  },
+  "175": {
+    "name": "Syria",
+    "continent": "Asia",
+    "climate": 19.17,
+    "area": 187437,
+    "latitude": "35 00 N",
+    "longitude": "38 00 E",
+    "population": 23865423,
+    "co2_emissions": 26.893
+  },
+  "176": {
+    "name": "Taiwan",
+    "continent": "Asia",
+    "climate": 20.79,
+    "area": 35980,
+    "latitude": "23 30 N",
+    "longitude": "121 00 E",
+    "population": 23595274,
+    "co2_emissions": 279.206
+  },
+  "177": {
+    "name": "Tajikistan",
+    "continent": "Asia",
+    "climate": 5.09,
+    "area": 144100,
+    "latitude": "39 00 N",
+    "longitude": "71 00 E",
+    "population": 10394063,
+    "co2_emissions": 7.643
+  },
+  "178": {
+    "name": "Tanzania",
+    "continent": "Africa",
+    "climate": 22.9,
+    "area": 947300,
+    "latitude": "6 00 S",
+    "longitude": "35 00 E",
+    "population": 67462121,
+    "co2_emissions": 11.491
+  },
+  "179": {
+    "name": "Thailand",
+    "continent": "Asia",
+    "climate": 26.78,
+    "area": 513120,
+    "latitude": "15 00 N",
+    "longitude": "100 00 E",
+    "population": 69920998,
+    "co2_emissions": 305.273
+  },
+  "180": {
+    "name": "The Gambia",
+    "continent": "Africa",
+    "climate": 28.46,
+    "area": 11300,
+    "latitude": "13 28 N",
+    "longitude": "16 34 W",
+    "population": 2523327,
+    "co2_emissions": 0.606
+  },
+  "181": {
+    "name": "Timor-Leste",
+    "continent": "Asia",
+    "climate": 24.3,
+    "area": 14874,
+    "latitude": "8 50 S",
+    "longitude": "125 55 E",
+    "population": 1506909,
+    "co2_emissions": 0.538
+  },
+  "182": {
+    "name": "Togo",
+    "continent": "Africa",
+    "climate": 27.47,
+    "area": 56785,
+    "latitude": "8 00 N",
+    "longitude": "1 10 E",
+    "population": 8917994,
+    "co2_emissions": 2.244
+  },
+  "183": {
+    "name": "Tonga",
+    "continent": "Oceania",
+    "climate": 25.1,
+    "area": 747,
+    "latitude": "20 00 S",
+    "longitude": "175 00 W",
+    "population": 104889,
+    "co2_emissions": 0.171
+  },
+  "184": {
+    "name": "Trinidad and Tobago",
+    "continent": "North and Central America",
+    "climate": 26.46,
+    "area": 5128,
+    "latitude": "11 00 N",
+    "longitude": "61 00 W",
+    "population": 1408966,
+    "co2_emissions": 39.652
+  },
+  "185": {
+    "name": "Tunisia",
+    "continent": "Africa",
+    "climate": 21.44,
+    "area": 163610,
+    "latitude": "34 00 N",
+    "longitude": "9 00 E",
+    "population": 12048847,
+    "co2_emissions": 23.692
+  },
+  "186": {
+    "name": "Turkey",
+    "continent": "Asia",
+    "climate": 12.24,
+    "area": 783562,
+    "latitude": "39 00 N",
+    "longitude": "35 00 E",
+    "population": 84119531,
+    "co2_emissions": 391.792
+  },
+  "187": {
+    "name": "Turkmenistan",
+    "continent": "Asia",
+    "climate": 17.66,
+    "area": 488100,
+    "latitude": "40 00 N",
+    "longitude": "60 00 E",
+    "population": 5744151,
+    "co2_emissions": 109.037
+  },
+  "188": {
+    "name": "Tuvalu",
+    "continent": "Oceania",
+    "climate": 28.49,
+    "area": 26,
+    "latitude": "8 00 S",
+    "longitude": "178 00 E",
+    "population": 11733,
+    "co2_emissions": 0.112
+  },
+  "189": {
+    "name": "Uganda",
+    "continent": "Africa",
+    "climate": 23.14,
+    "area": 241038,
+    "latitude": "1 00 N",
+    "longitude": "32 00 E",
+    "population": 49283041,
+    "co2_emissions": 5.841
+  },
+  "190": {
+    "name": "Ukraine",
+    "continent": "Europe",
+    "climate": 10.04,
+    "area": 603550,
+    "latitude": "49 00 N",
+    "longitude": "32 00 E",
+    "population": 35661826,
+    "co2_emissions": 185.686
+  },
+  "191": {
+    "name": "United Arab Emirates",
+    "continent": "Asia",
+    "climate": 28.93,
+    "area": 83600,
+    "latitude": "24 00 N",
+    "longitude": "54 00 E",
+    "population": 10032213,
+    "co2_emissions": 276.236
+  },
+  "192": {
+    "name": "United Kingdom",
+    "continent": "Europe",
+    "climate": 10.11,
+    "area": 243610,
+    "latitude": "54 00 N",
+    "longitude": "2 00 W",
+    "population": 68459055,
+    "co2_emissions": 398.084
+  },
+  "193": {
+    "name": "United States",
+    "continent": "North and Central America",
+    "climate": 9.73,
+    "area": 9833517,
+    "latitude": "38 00 N",
+    "longitude": "97 00 W",
+    "population": 341963408,
+    "co2_emissions": 5144.361
+  },
+  "194": {
+    "name": "Uruguay",
+    "continent": "South America",
+    "climate": 17.73,
+    "area": 176215,
+    "latitude": "33 00 S",
+    "longitude": "56 00 W",
+    "population": 3425330,
+    "co2_emissions": 6.45
+  },
+  "195": {
+    "name": "Uzbekistan",
+    "continent": "Asia",
+    "climate": 14.86,
+    "area": 447400,
+    "latitude": "41 00 N",
+    "longitude": "64 00 E",
+    "population": 36520593,
+    "co2_emissions": 102.965
+  },
+  "196": {
+    "name": "Vanuatu",
+    "continent": "Oceania",
+    "climate": 24.76,
+    "area": 12189,
+    "latitude": "16 00 S",
+    "longitude": "167 00 E",
+    "population": 318007,
+    "co2_emissions": 0.225
+  },
+  "197": {
+    "name": "Venezuela",
+    "continent": "South America",
+    "climate": 25.52,
+    "area": 912050,
+    "latitude": "8 00 N",
+    "longitude": "66 00 W",
+    "population": 31250306,
+    "co2_emissions": 103.708
+  },
+  "198": {
+    "name": "Vietnam",
+    "continent": "Asia",
+    "climate": 24.73,
+    "area": 331210,
+    "latitude": "16 10 N",
+    "longitude": "107 50 E",
+    "population": 105758975,
+    "co2_emissions": 249.929
+  },
+  "199": {
+    "name": "Yemen",
+    "continent": "Asia",
+    "climate": 25.51,
+    "area": 527968,
+    "latitude": "15 00 N",
+    "longitude": "48 00 E",
+    "population": 32140443,
+    "co2_emissions": 10.158
+  },
+  "200": {
+    "name": "Zambia",
+    "continent": "Africa",
+    "climate": 21.92,
+    "area": 752618,
+    "latitude": "15 00 S",
+    "longitude": "30 00 E",
+    "population": 20799116,
+    "co2_emissions": 6.798
+  },
+  "201": {
+    "name": "Zimbabwe",
+    "continent": "Africa",
+    "climate": 21.83,
+    "area": 390757,
+    "latitude": "20 00 S",
+    "longitude": "30 00 E",
+    "population": 17150352,
+    "co2_emissions": 7.902
+  }
+}

@@ -1,0 +1,149 @@
+body {
+  background-image: url("wallpaper.jpg");
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  background-color: #ffd1bb;
+  width: 60vw;
+  min-height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* anchor how to play button to top right corner */
+#infobutton {
+  position: absolute;
+  top: 10px;
+  left: 22vw;
+}
+
+#logo {
+  width: 37%;
+  /* height: auto; */
+  margin-bottom: 40px;
+}
+
+.icons {
+  width: 24px;
+  height: auto;
+  margin: 35px;
+  margin-bottom: 10px;
+}
+
+td {
+  font-size: 18px;
+  color: #269273;
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
+
+#datatable {
+  padding-bottom: 20px;
+}
+
+th {
+  font-size: 20px;
+}
+
+img {
+  scale: 150%;
+}
+
+/* modal hidden by default */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalcontent {
+  background: white;
+  border-radius: 8px;
+  border: 2px solid #61d4b5;
+  padding: 20px;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.info_icons {
+  width: 24px;
+  height: auto;
+  margin: 15px;
+  margin-bottom: 2px;
+}
+
+/* modal close button */
+.close {
+  color: #ffc2e4;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #fe86fa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* guess and how to play buttons */
+button,
+#submitbutton {
+  background-color: #8d77e4;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  border: 2px solid #4f2dc8;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+#submitbutton:hover {
+  background-color: #4f2dc8;
+}
+
+label {
+  margin-right: 45px;
+}
+
+#guess {
+  padding: 5px;
+  width: 150px;
+  outline: none;
+  border: 2px solid #ffc2e4;
+  border-radius: 5px;
+}
+
+#guess:focus {
+  border: 2px solid #fe83f9;
+}
+
+/* guess box opaque when disabled */
+#guess:disabled {
+  background-color: rgba(255, 255, 255, 0.75);
+}
