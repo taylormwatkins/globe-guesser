@@ -10,7 +10,7 @@ let targetCountry = "";
 let guessCounter = 7;
 
 // define the API URL
-const apiUrl = "http://127.0.0.1:5000";
+const apiUrl = "https://us-central1-globeguesser-56dad.cloudfunctions.net";
 
 
 // find the html elements needed
@@ -25,6 +25,7 @@ guessHolder.innerHTML = "Guesses remaining: " + guessCounter;
 // make a GET request to fetch data
 fetch(apiUrl + "/random_country", {
   method: "GET",
+  // mode: 'no-cors',  // Temporary workaround
 })
   .then((response) => {
     if (!response.ok) {

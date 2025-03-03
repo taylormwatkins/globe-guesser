@@ -1,50 +1,62 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS
-import firebase_admin
-from firebase_admin import firestore, credentials, db
-import random
-import os
 
+import firebase_admin
+from firebase_admin import credentials, firestore
+from firebase_functions import https_fn
+import functions_framework
+from firebase_admin import initialize_app
+import random
+from flask import Flask, jsonify
+from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app)
 
-# port = int(os.environ.get("PORT", 8080))
-# app.run(host="0.0.0.0", port=port)
 
-# Initialize Firebase Admin SDK
+CORS(app, resources={r"/*": {"origins": ["https://globeguesser-56dad.web.app/", "http://localhost:3000"]}}, supports_credentials=True)  #Supports_credentials for cookies
+
+# Initialize Firebase Admin SDK 
 cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://globeguesser-56dad-default-rtdb.firebaseio.com/'
-})
+firebase_admin.initialize_app(cred)
 
-
-# convert database to list of countries
+# Initialize Firestore
 db = firestore.client()
-countries_ref = db.collection('countries')
-countries = countries_ref.stream()
-countries_list = [country.to_dict() for country in countries]
 
-# empty variable to hold target country
+# Convert Firestore collection to list of countries
+countries_ref = db.collection('countries')  # Reference to 'countries' collection
+countries = countries_ref.stream()  # Stream the documents
+countries_list = [country.to_dict() for country in countries]  # Convert to list of dictionaries
+
+
+# Empty variable to hold target country
 target_country = ""
-    
-# return a randomly selected country from the database
-@app.route('/random_country', methods=['GET'])
-def random_country():
+
+# Randomly select a country from the database
+@https_fn.on_request()
+def random_country(request):
     if countries_list:
         target_country = random.choice(countries_list)
-        return target_country
+        response = jsonify(target_country)
+        response.headers['Access-Control-Allow-Origin'] = 'https://globeguesser-56dad.web.app'
+        return response
     else:
-        return jsonify({"error": "No countries found"}), 404
+        response = jsonify({"error": "No countries found"})
+        response.status_code = 404 
+        return response
+
+
+@https_fn.on_request()
+def check_guess(request):
     
-
-
+    # Handle preflight OPTIONS request
+    if request.method == 'OPTIONS':
+        response = jsonify({})  
+        response.headers['Access-Control-Allow-Origin'] = 'https://globeguesser-56dad.web.app'
+        response.headers['Access-Control-Allow-Methods'] = 'POST' 
+        response.headers['Access-Control-Allow-Headers'] = 'Content-Type' 
+        response.headers['Access-Control-Max-Age'] = '3600' # cache preflight for one hour
+        return response
     
-# check if guess is correct
-@app.route('/check_guess', methods=['POST'])
-def check_guess():
-
+    
     try:
         # parse the incoming JSON request
         data = request.json
@@ -63,7 +75,7 @@ def check_guess():
             
             # if guess is the target country, return correct
             if guessed_country == target_country:
-                response = {
+                response_data = {
                     'found': True,
                     'correct': True,
                     'message': 'You got it! The country is ' + target_country.get('name', ''),
@@ -78,7 +90,7 @@ def check_guess():
                 else:
                     continent = "Nope"
                     
-                response = {
+                response_data = {
                     'found': True,
                     'correct': False,
                     'name': guessed_country.get('name', ''),
@@ -90,16 +102,19 @@ def check_guess():
                 }
         # if country isn't in database
         else:
-            response = {
+            response_data = {
                 'found': False,
                 'message': f'Country not found in database',
             }
-        return response, 200
+            
+        response = jsonify(response_data)
+        response.headers['Access-Control-Allow-Origin'] = 'https://globeguesser-56dad.web.app'
+        return response
 
     except Exception as e:
         print("Error processing request:", e)
-        return jsonify({'error': 'Invalid input or server error'}), 400
-
+        response.status_code = 400 
+        return response
     
 
 # calculate direction from guessed country to target
@@ -141,5 +156,7 @@ def get_direction(guessed_country_lat, guessed_country_lon, target_country_lat, 
 
 
 
-if __name__ == '__main__':
+
+    
+if __name__ == "__main__":
     app.run(debug=True)
