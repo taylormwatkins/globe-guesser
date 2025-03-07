@@ -61,9 +61,9 @@ def check_guess(request):
         # parse the incoming JSON request
         data = request.json
 
-        # get the guess field
-        guess = data.get('guess', '')  
-        target = data.get('target', '')
+        # get the guess field, strip whitespace at beginning or end
+        guess = data.get('guess', '').strip()  
+        target = data.get('target', '').strip()
 
         # search for the country by name in the list
         matching_guess = [country for country in countries_list if country.get('name', '').lower() == guess.lower()]
