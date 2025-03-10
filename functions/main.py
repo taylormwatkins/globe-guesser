@@ -1,18 +1,18 @@
 
 import firebase_admin
-from firebase_admin import credentials, firestore
+from firebase_admin import credentials, firestore, initialize_app
 from firebase_functions import https_fn
 import functions_framework
-from firebase_admin import initialize_app
 import random
 from flask import Flask, jsonify
 from flask_cors import CORS
+# import fuzzywuzzy
+from fuzzywuzzy import process
 
 
 app = Flask(__name__)
 
-
-CORS(app, resources={r"/*": {"origins": ["https://globeguesser-56dad.web.app/", "http://localhost:3000"]}}, supports_credentials=True)  #Supports_credentials for cookies
+CORS(app, resources={r"/*": {"origins": ["https://globeguesser-56dad.web.app/", "http://localhost:3000"]}}, supports_credentials=True)  # Supports_credentials for cookies
 
 # Initialize Firebase Admin SDK 
 cred = credentials.Certificate("serviceAccountKey.json")
@@ -20,6 +20,7 @@ firebase_admin.initialize_app(cred)
 
 # Initialize Firestore
 db = firestore.client()
+
 
 # Convert Firestore collection to list of countries
 countries_ref = db.collection('countries')  # Reference to 'countries' collection
@@ -29,6 +30,7 @@ countries_list = [country.to_dict() for country in countries]  # Convert to list
 
 # Empty variable to hold target country
 target_country = ""
+
 
 # Randomly select a country from the database
 @https_fn.on_request()
@@ -53,9 +55,8 @@ def check_guess(request):
         response.headers['Access-Control-Allow-Origin'] = 'https://globeguesser-56dad.web.app'
         response.headers['Access-Control-Allow-Methods'] = 'POST' 
         response.headers['Access-Control-Allow-Headers'] = 'Content-Type' 
-        response.headers['Access-Control-Max-Age'] = '3600' # cache preflight for one hour
+        response.headers['Access-Control-Max-Age'] = '3600'  # cache preflight for one hour
         return response
-    
     
     try:
         # parse the incoming JSON request
@@ -63,11 +64,17 @@ def check_guess(request):
 
         # get the guess field, strip whitespace at beginning or end
         guess = data.get('guess', '').strip()  
+        
+        # grab the target country from the database
         target = data.get('target', '').strip()
-
-        # search for the country by name in the list
-        matching_guess = [country for country in countries_list if country.get('name', '').lower() == guess.lower()]
         matching_target = [country for country in countries_list if country.get('name', '').lower() == target.lower()]
+
+        # search for the guessed country by name
+        matching_guess = [
+            country for country in countries_list 
+            if country.get('name', '').lower() == guess.lower() 
+            or any(alt.lower() == guess.lower() for alt in country.get('alternatives', []))
+        ]
 
         if matching_guess and matching_target:
             guessed_country = matching_guess[0]
@@ -95,16 +102,17 @@ def check_guess(request):
                     'correct': False,
                     'name': guessed_country.get('name', ''),
                     'co2_difference': (target_country.get('co2_emissions', '') - guessed_country.get('co2_emissions', '')),
-                    'climate_difference': (target_country.get('climate', '') - guessed_country.get('climate', '')), 
+                    'climate_difference': (target_country.get('climate', '') - guessed_country.get('climate', '')),
                     'land_area_difference': (target_country.get('area', '') - guessed_country.get('area', '')),
                     'continent': continent,
                     'direction': direction
                 }
         # if country isn't in database
         else:
+            message = suggest_spelling(guess)
             response_data = {
                 'found': False,
-                'message': f'Country not found in database',
+                'message': message,
             }
             
         response = jsonify(response_data)
@@ -150,13 +158,23 @@ def get_direction(guessed_country_lat, guessed_country_lon, target_country_lat, 
         direction = lat_dir + lon_dir
     else:
         direction = lat_dir if lat_dir else lon_dir
-
     
     return direction
 
 
 
+def suggest_spelling(user_input):
 
+    # make a list of just the names for spelling comparison
+    country_names = [country["name"] for country in countries_list]
+
+    # see if there's a close match in the database
+    match, score = process.extractOne(user_input, country_names)
+    if score > 80:
+        return f"Did you mean {match}?"
+    else:
+        return "Country not found in database." 
+    
     
 if __name__ == "__main__":
     app.run(debug=True)
